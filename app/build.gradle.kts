@@ -47,6 +47,9 @@ android {
 }
 
 dependencies {
+    implementation("androidx.room:room-runtime:2.4.1")
+
+    implementation ("androidx.work:work-runtime:2.7.0")
 
     implementation ("androidx.compose.ui:ui:1.0.4")
     implementation ("androidx.compose.material:material:1.0.4")
