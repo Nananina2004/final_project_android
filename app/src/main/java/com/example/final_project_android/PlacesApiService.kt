@@ -109,7 +109,9 @@ interface PlacesApiService {
         val userRatingsTotal: Int?,
 
         @SerializedName("vicinity")
-        val address: String
+        val address: String,
+
+        val isFavourite: Boolean = false
     )
 
     data class OpeningHours(

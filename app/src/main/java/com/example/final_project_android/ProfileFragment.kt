@@ -16,7 +16,7 @@ class ProfileFragment: Fragment(R.layout.fragment_profile) {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
 
         // Inflate the layout for this fragment
         binding = FragmentProfileBinding.inflate(inflater, container, false)
